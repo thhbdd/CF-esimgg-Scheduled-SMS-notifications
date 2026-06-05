@@ -69,8 +69,8 @@ QUOTA_WINDOW_HOURS=72
 - `ADMIN_USERNAME`：登录管理面板的用户名。
 - `ADMIN_PASSWORD`：登录管理面板的密码。
 - `ESIMGG_API_KEY`：乌龟卡 API key。
-- `ESIMGG_TARGET_NUMBER`：接收短信的乌龟卡号码，例如 `+372...`，这是必填项。
-- `DEFAULT_FROM`：默认来自号码，例如 `+1 1111111111`，只控制短信里显示的发送方，不是接收号码。
+- `ESIMGG_TARGET_NUMBER`：接收短信的乌龟卡号码，例如 `372...`，这是必填项。
+- `DEFAULT_FROM`：默认来自号码，例如 `3721111111`，只控制短信里显示的发送方，不是接收号码。
 - `SMS_QUOTA_LIMIT`：72 小时窗口内最多发送多少条，默认 `72`。
 - `QUOTA_WINDOW_HOURS`：配额统计窗口，默认 `72` 小时。
 
